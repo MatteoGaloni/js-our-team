@@ -7,5 +7,13 @@
 
 body {
     font-family: sans-serif;
-    background-color: teal;
+    background-image: url(https://wallpapers.com/images/high/microsoft-teams-study-room-virtual-background-zwz72nuegwf4mlmz.webp);
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    color: darkred;
+    text-align: center;
 }
