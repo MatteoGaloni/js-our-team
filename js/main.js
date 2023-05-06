@@ -37,7 +37,7 @@ team.forEach((element) => {
   teamMember = element;
   const contentElement = document.getElementById("row-container");
   let contentHtml = `<div class="col-4">`;
-  contentHtml += `<div class="card" style="width: 18rem;">`;
+  contentHtml += `<div class="card w-50" style="width: 18rem;">`;
   contentHtml += `<img src="./img/${teamMember.foto}" alt="${teamMember.nome}" />`;
   contentHtml += `<div class="card-body">`;
   contentHtml += `<h5 id="nome" class="card-title">${teamMember.nome}</h5>`;
